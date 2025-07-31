@@ -1,0 +1,108 @@
+<html>
+
+<head>
+
+<title>MidtermA.py</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style type="text/css">
+
+.s0 { color: #808080; font-style: italic;}
+
+.s1 { color: #000000;}
+
+.s2 { color: #000080; font-weight: bold;}
+
+.s3 { color: #0000ff;}
+
+.s4 { color: #008000; font-weight: bold;}
+
+</style>
+
+</head>
+
+<body bgcolor="#ffffff">
+
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+
+<tr><td><center>
+
+<font face="Arial, Helvetica" color="#000000">
+
+MidtermA.py</font>
+
+</center></td></tr></table>
+
+<pre><span class="s0"># Cecilia Eubanks u1363211 Midterm A</span>
+
+
+<span class="s0">#Question 1</span>
+
+<span class="s2">import </span>turtle
+
+window = turtle.Screen()
+
+Donatello = turtle.Turtle()
+
+Donatello.penup()
+
+Donatello.goto(<span class="s3">0</span>,<span class="s3">0</span>)
+
+Donatello.pendown()
+
+Donatello.hideturtle()
+
+<span class="s2">for </span>_ <span class="s2">in </span>range(<span class="s3">5</span>):
+
+    Donatello.forward(<span class="s3">90</span>)
+
+    Donatello.right(<span class="s3">70</span>)
+
+window.exitonclick()
+
+
+<span class="s0">#Question 2</span>
+
+
+<span class="s2">def </span>calculator(numerator, denominator):
+
+   <span class="s2">return </span>numerator / denominator
+
+print(calculator(numerator = <span class="s3">17</span>, denominator = <span class="s3">3</span>)) <span class="s0">#I couldn't figure out how to print just five, I think it would involve a type conversion, but I'm retty stoked this worked anyways</span>
+
+
+<span class="s0">#Question 3</span>
+
+
+<span class="s2">def </span>list_cleaner(list = [<span class="s4">'Ceci'</span>, <span class="s4">'is'</span>, <span class="s4">'smart'</span>, <span class="s4">'and'</span>, <span class="s4">'cool'</span>]):
+
+    <span class="s2">for </span>l <span class="s2">in </span>range(<span class="s3">1</span>, len(list), <span class="s3">2</span>):
+
+        print(list[l])
+
+
+<span class="s0">#Question 4</span>
+
+accum = <span class="s3">0</span>
+
+list_one = [<span class="s3">1</span>, <span class="s3">2</span>, <span class="s3">3</span>, <span class="s3">4</span>, <span class="s3">6</span>,]
+
+list_two = [<span class="s3">3</span>, <span class="s3">5</span>, <span class="s3">2</span>, <span class="s3">6</span>, <span class="s3">2</span>]
+
+<span class="s2">def </span>count_list(list_one, list_two):
+
+    <span class="s2">for </span>w <span class="s2">in </span>nums:
+
+        accum = list_one + list_two
+
+print(count_list)
+
+
+<span class="s0">#I gave it my all. Talk about a time crunch!</span>
+
+</pre>
+
+</body>
+
+</html>
